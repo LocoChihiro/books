@@ -1,0 +1,37 @@
+[2019-03-23T17:59:56.967] [ERROR] cheese - ReferenceError: IndexModel is not defined
+    at /Users/han/Desktop/homework/controllers/IndexController.js:5:13
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-03-23T18:01:30.621] [ERROR] cheese - ReferenceError: IndexModel is not defined
+    at /Users/han/Desktop/homework/controllers/IndexController.js:5:13
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-03-23T18:08:48.069] [ERROR] cheese - ReferenceError: a is not defined
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:16:27)
+[2019-03-23T18:09:26.771] [ERROR] cheese - ReferenceError: a is not defined
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:16:27)
+[2019-03-23T18:14:24.923] [ERROR] cheese - ReferenceError: IndexModel is not defined
+    at /Users/han/Desktop/homework/controllers/IndexController.js:5:13
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)

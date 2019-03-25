@@ -1,0 +1,17 @@
+{% extends './layout.html' %}
+
+{% block title %}han-news{% endblock %}
+
+{% block head %}
+{% parent %}
+    <link rel="stylesheet" href="/style/index.css">
+{% endblock %}
+
+{% block content %}
+    <div id="app"></div>
+    {% include "../components/news/index.html" %} 
+{% endblock %}
+
+{% block script %}
+    <script src="/script/index.js"></script>
+{% endblock %}
