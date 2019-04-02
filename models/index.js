@@ -7,6 +7,8 @@
  * @class
  */
 
+const SafeRequest = require('../utils/SafeRequest');
+
  class Index {
      /**
       * @constructor
@@ -22,7 +24,8 @@
      * 
      */
      getData() {
-         return {}
+         const safeRequest = new SafeRequest("books/index");    //获取后台数据
+         return safeRequest.fetch({});
      }
 
  }

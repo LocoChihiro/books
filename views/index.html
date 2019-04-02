@@ -4,14 +4,15 @@
 
 {% block head %}
 {% parent %}
-    <link rel="stylesheet" href="/style/index.css">
 {% endblock %}
 
 {% block content %}
     <div id="app"></div>
-    {% include "../components/news/index.html" %} 
+    {% include "../components/books/index.html" %} 
+    <!-- 引入components里的模板 -->
 {% endblock %}
 
 {% block script %}
+
     <script src="/script/index.js"></script>
 {% endblock %}

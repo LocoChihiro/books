@@ -1,0 +1,35 @@
+{% extends './layout.html' %}
+
+{% block title %}🍎添加书籍{% endblock %}
+
+{% block head %}
+{% parent %}
+{% endblock %}
+
+{% block content %}
+<!-- <div id="app"></div> -->
+{% include "../components/books/add.html" %}
+<!-- 引入components里的模板 -->
+{% endblock %}
+
+{% block script %}
+<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+<!-- 支持 module 模块加载的js -->
+<script type="module">
+  import("http://localhost:3000/script/add.js").then((_)=>{
+    const create = new _.default();
+    create.fn();
+  })
+</script>
+<!-- 不支持 module 模块加载的js -->
+<!-- 不支持的 module 需要 system.js 这个包来打包js，
+     还需要 @babel/plugin-transform-modules-systemjs 来配合 system.js 不然会包 express is not definit
+-->
+<script type="nomodule" src="https://cdn.staticfile.org/systemjs/3.1.0/system.js"></script>
+<script type="nomodule">
+  System.import('/script/add-bundle.js').then((_) => {
+      const create = new _.default();
+      create.fn();
+    })
+</script>
+{% endblock %}

@@ -7,8 +7,9 @@ const testController = new TestController();
 
 module.exports = (app)=> {
     app.use(router(_ => {
-        _.get('/', indexController.actionIndex()),
-        _.get('/index.html', indexController.actionIndex()),
-        _.get('/books', testController.actionIndex())
+        _.get('/', indexController.actionIndex()),  //根路由
+        _.get('/index.html', indexController.actionIndex()),  //防止爬虫
+        _.get('/add', indexController.actionAdd()),
+        _.get('/books', testController.actionIndex())  //books路由
       }));
 };
