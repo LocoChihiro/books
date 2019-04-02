@@ -10,6 +10,7 @@ module.exports = (app)=> {
         _.get('/', indexController.actionIndex()),  //根路由
         _.get('/index.html', indexController.actionIndex()),  //防止爬虫
         _.get('/add', indexController.actionAdd()),
+        _.get('/save', indexController.actionSave()),
         _.get('/books', testController.actionIndex())  //books路由
       }));
 };

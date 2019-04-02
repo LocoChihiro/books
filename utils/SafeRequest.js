@@ -11,6 +11,12 @@ class SafeRequest {
   }
   fetch(option){
     let books = fetch(this.baseUrl + this.url);
+    if(option.params) {
+      books = fetch(this.baseUrl + this.url,{
+        method: option.method,
+        body: option.params
+      });
+    }
     return new Promise((resolve, reject)=>{
       let result = {  //保证前端有数据
         code: 0,
@@ -18,7 +24,10 @@ class SafeRequest {
         message: ''
       };
       books
-        .then(res=>res.json())
+        .then(res=>{
+          console.log(res.headers,'res');
+          return res.json()
+        })
         .then(res=>{
           result.data = res;
           resolve(result);

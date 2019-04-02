@@ -14,9 +14,9 @@ const SafeRequest = require('../utils/SafeRequest');
       * @constructor
       * @param {string} app     koa2 的执行上下文
       */
-     constructor(app ){}
+     constructor(app){}
     /**
-     * 获取后台的数据方法
+     * 获取书籍列表的数据方法
      * @param {*} option
      * @example
      * return new Promise
@@ -26,6 +26,23 @@ const SafeRequest = require('../utils/SafeRequest');
      getData() {
          const safeRequest = new SafeRequest("books/index");    //获取后台数据
          return safeRequest.fetch({});
+     }
+
+     /**
+     * 添加书籍的方法
+     * @param {*} option
+     * @example
+     * return new Promise
+     * saveData(option)
+     * 
+     */
+     saveData(option) {
+         const safeRequest = new SafeRequest("books/create");    //添加书籍数据
+         console.log(safeRequest);
+         return safeRequest.fetch({
+             method: "POST",
+             params: option.params
+         });
      }
 
  }

@@ -1029,3 +1029,314 @@
      type: 'system',
      errno: 'ECONNREFUSED',
      code: 'ECONNREFUSED' } }
+[2019-04-02T20:28:13.123] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-02T20:28:24.035] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-02T21:16:41.730] [ERROR] cheese - TypeError: index.saveData is not a constructor
+    at /Users/han/Desktop/homework/controllers/IndexController.js:30:34
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-04-02T21:18:36.427] [ERROR] cheese - TypeError: index.saveData is not a constructor
+    at /Users/han/Desktop/homework/controllers/IndexController.js:30:34
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-04-02T21:18:37.219] [ERROR] cheese - TypeError: index.saveData is not a constructor
+    at /Users/han/Desktop/homework/controllers/IndexController.js:30:34
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-04-02T21:18:37.365] [ERROR] cheese - TypeError: index.saveData is not a constructor
+    at /Users/han/Desktop/homework/controllers/IndexController.js:30:34
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-04-02T21:19:43.177] [ERROR] cheese - TypeError: index.saveData is not a constructor
+    at /Users/han/Desktop/homework/controllers/IndexController.js:30:34
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+    at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:13:19)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at app.use (/Users/han/Desktop/homework/middlewares/errorHandler.js:5:23)
+    at dispatch (/Users/han/Desktop/homework/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/han/Desktop/homework/node_modules/koa-static/index.js:53:15)
+[2019-04-02T21:24:17.938] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:41:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:31:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:24:36.461] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:41:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:31:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:27:09.720] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:41:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:28:33.241] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:29:13.630] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:33:06.984] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:33:08.405] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:36:25.436] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:40:50.775] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:41:21.643] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   TypeError: Request with GET/HEAD method cannot have body
+       at new Request (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1187:10)
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1392:19
+       at new Promise (<anonymous>)
+       at fetch (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1390:9)
+       at SafeRequest.fetch (/Users/han/Desktop/homework/utils/SafeRequest.js:15:15)
+       at Index.saveData (/Users/han/Desktop/homework/models/index.js:42:29)
+       at /Users/han/Desktop/homework/controllers/IndexController.js:32:40
+       at dispatch (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:186:18)
+       at Router._lookup (/Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:198:12)
+       at /Users/han/Desktop/homework/node_modules/koa-simple-router/index.js:138:21 }
+[2019-04-02T21:57:37.830] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token < in JSON at position 0
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:241:32
+       at processTicksAndRejections (internal/process/next_tick.js:81:5)
+     message:
+      'invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token < in JSON at position 0',
+     type: 'invalid-json' } }
+[2019-04-02T22:03:46.459] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:8080/basic/web/index.php?r=books/create failed, reason: connect ECONNREFUSED 127.0.0.1:8080
+       at ClientRequest.<anonymous> (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:8080/basic/web/index.php?r=books/create failed, reason: connect ECONNREFUSED 127.0.0.1:8080',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-02T22:04:02.825] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:8080/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:8080
+       at ClientRequest.<anonymous> (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:8080/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:8080',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-02T22:05:59.377] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:8080/basic/web/index.php?r=books/create failed, reason: connect ECONNREFUSED 127.0.0.1:8080
+       at ClientRequest.<anonymous> (/Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:8080/basic/web/index.php?r=books/create failed, reason: connect ECONNREFUSED 127.0.0.1:8080',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-02T22:06:20.022] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token a in JSON at position 0
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:241:32
+       at processTicksAndRejections (internal/process/next_tick.js:81:5)
+     message:
+      'invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token a in JSON at position 0',
+     type: 'invalid-json' } }
+[2019-04-02T22:06:45.671] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token a in JSON at position 0
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:241:32
+       at processTicksAndRejections (internal/process/next_tick.js:81:5)
+     message:
+      'invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token a in JSON at position 0',
+     type: 'invalid-json' } }
+[2019-04-02T22:08:03.280] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token o in JSON at position 0
+       at /Users/han/Desktop/homework/node_modules/node-fetch/lib/index.js:241:32
+       at processTicksAndRejections (internal/process/next_tick.js:81:5)
+     message:
+      'invalid json response body at http://localhost/basic/web/index.php?r=books/create reason: Unexpected token o in JSON at position 0',
+     type: 'invalid-json' } }
