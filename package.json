@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./assets/script/add.js --out-file ./assets/script/add-bundle.js",
     "dev": "cross-env NODE_DEV=development supervisor app.js",
-    "docs": "jsdoc ./**/*.js -d ./docs/jsdocs"
+    "docs": "jsdoc ./**/*.js -d ./docs/jsdocs",
+    "server:dev": "scripty",
+    "server:prod": "scripty",
+    "server:lint": "scripty"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "co": "^4.6.0",
     "cross-env": "^5.2.0",
     "koa": "^2.7.0",
+    "koa-bodyparser": "^3.2.0",
     "koa-simple-router": "^0.2.0",
     "koa-static": "^5.0.0",
     "koa-swig": "^2.2.1",
@@ -28,8 +32,14 @@
     "@babel/core": "^7.4.0",
     "@babel/plugin-transform-modules-systemjs": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-rollup": "^2.16.2",
+    "gulp-watch": "^5.0.1",
     "jsdoc": "^3.5.5",
     "puppeteer": "^1.14.0",
-    "rize": "^0.8.0"
+    "rize": "^0.8.0",
+    "scripty": "^1.9.1"
   }
 }
