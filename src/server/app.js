@@ -1,4 +1,5 @@
-const Koa = require("koa");
+// const Koa = require("koa");
+import Koa from 'koa';
 const render = require('koa-swig');
 const co = require('co');
 const path = require('path');

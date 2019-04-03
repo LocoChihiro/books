@@ -1,7 +1,12 @@
 "use strict";
 
-const Koa = require("koa");
+var _koa = require("koa");
 
+var _koa2 = _interopRequireDefault(_koa);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// const Koa = require("koa");
 const render = require('koa-swig');
 
 const co = require('co');
@@ -10,7 +15,7 @@ const path = require('path');
 
 const serve = require('koa-static');
 
-const app = new Koa();
+const app = new _koa2.default();
 
 const errorHandler = require('./middlewares/errorHandler');
 

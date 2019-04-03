@@ -1,40 +1,21 @@
-"use strict";
+'use strict';
 
-const {
-  join
-} = require("path");
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-const _ = require("lodash");
+var path = require('path');
+var _ = _interopDefault(require('lodash'));
 
+// const { join } = require("path");
+// const _ = require("lodash");
 let config = {
-  viewDir: join(__dirname, "..", "views"),
-  //view的根目录
-  staticDir: join(__dirname, "..", "assets") //assets的根目录
-
+  viewDir: path.join(__dirname, "..", "views"), //view的根目录
+  staticDir: path.join(__dirname, "..", "assets") //assets的根目录
 };
-
-if (process.env.NODE_DEV == "development") {
-  //开发环境
-  const localConfig = {
-    port: 3000,
-    //端口号
-    baseUrl: "http://localhost:88/basic/web/index.php?r=",
-    // base地址
-    cacheMode: false //开发环境，不让浏览器缓存
-
-  };
-  config = _.extend(config, localConfig);
-}
-
-if (process.env.NODE_DEV == "production") {
-  //生产环境
+{ //生产环境
   const prodConfig = {
-    port: 8081,
-    //端口号
+    port: 8081, //端口号
     cacheMode: "memory" //生产环境让浏览器缓存
-
   };
   config = _.extend(config, prodConfig);
 }
-
 module.exports = config;
