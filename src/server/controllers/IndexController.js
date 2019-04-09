@@ -9,7 +9,7 @@ class IndexController {
             // console.log(index,123);
             const result = await index.getData();
             ctx.body = await ctx.render(
-                "index",
+                "books/pages/list",
                 {
                 data:
                     result.data
@@ -19,7 +19,7 @@ class IndexController {
     }
     actionAdd() {   //add路由控制器
         return async (ctx, root) => {
-            ctx.body = await ctx.render("add");   //吐出模板内容
+            ctx.body = await ctx.render("books/pages/add");   //吐出模板内容
         }
     }
     actionSave() {

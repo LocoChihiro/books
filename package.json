@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./assets/script/add.js --out-file ./assets/script/add-bundle.js",
-    "dev": "cross-env NODE_DEV=development supervisor app.js",
+    "dev": "cross-env NODE_DEV=development supervisor ./dist/app.js",
     "docs": "jsdoc ./**/*.js -d ./docs/jsdocs",
     "client:dev": "webpack --mode development",
     "client:prod": "webpack --mode production",

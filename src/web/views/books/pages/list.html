@@ -1,4 +1,4 @@
-{% extends './layout.html' %}
+{% extends 'pages:common/layout.html' %}
 
 {% block title %}🍎books{% endblock %}
 
@@ -7,10 +7,10 @@
 {% endblock %}
 
 {% block content %}
-    {% include "../../../components/list/list.html" %} 
+    {% include "components:list/list.html" %} 
     <!-- 引入components里的模板 -->
 {% endblock %}
 
 {% block script %}
-
+<!-- injectjs -->
 {% endblock %}

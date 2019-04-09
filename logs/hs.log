@@ -1,0 +1,249 @@
+[2019-04-09T16:50:37.602] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:53:37.553] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:53:38.119] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:53:38.262] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:53:38.417] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:58:52.824] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:59:56.735] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:59:57.431] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T16:59:57.550] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost:88/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:88',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-04-09T17:00:38.249] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:00:38.710] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:00:38.814] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:08:00.119] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:08:00.862] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:08:00.984] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/hansai/Desktop/books/dist/views/index.html' }
+[2019-04-09T17:14:03.364] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/books/pages/layout.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.readFileSync (fs.js:348:35)
+    at Object.ret.load (/home/hansai/Desktop/books/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)
+    at exports.Swig.parseFile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:403:31)
+    at getParents (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:480:14)
+    at exports.Swig.precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:527:19)
+    at exports.Swig.compile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:651:16)
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/home/hansai/Desktop/books/dist/views/books/pages/layout.html' }
+[2019-04-09T17:14:04.296] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/books/pages/layout.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.readFileSync (fs.js:348:35)
+    at Object.ret.load (/home/hansai/Desktop/books/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)
+    at exports.Swig.parseFile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:403:31)
+    at getParents (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:480:14)
+    at exports.Swig.precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:527:19)
+    at exports.Swig.compile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:651:16)
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/home/hansai/Desktop/books/dist/views/books/pages/layout.html' }
+[2019-04-09T17:45:48.490] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/dist/views/viewscommon/layout.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.readFileSync (fs.js:348:35)
+    at Object.ret.load (/home/hansai/Desktop/books/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)
+    at exports.Swig.parseFile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:403:31)
+    at getParents (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:480:14)
+    at exports.Swig.precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:527:19)
+    at exports.Swig.compile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:651:16)
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/home/hansai/Desktop/books/dist/views/viewscommon/layout.html' }
+[2019-04-09T17:47:02.887] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/components/common/navigation.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.readFileSync (fs.js:348:35)
+    at Object.ret.load (/home/hansai/Desktop/books/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)
+    at exports.Swig.compileFile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:740:31)
+    at Object.eval [as tpl] (eval at precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:12:18)
+    at compiled (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:664:18)
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:604:20
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:735:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/home/hansai/Desktop/books/components/common/navigation.html' }
+[2019-04-09T17:47:03.960] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/home/hansai/Desktop/books/components/common/navigation.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.readFileSync (fs.js:348:35)
+    at Object.ret.load (/home/hansai/Desktop/books/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)
+    at exports.Swig.compileFile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:740:31)
+    at Object.eval [as tpl] (eval at precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:12:18)
+    at compiled (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:664:18)
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:604:20
+    at /home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:735:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/home/hansai/Desktop/books/components/common/navigation.html' }

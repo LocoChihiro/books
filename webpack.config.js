@@ -6,6 +6,7 @@ const glob = require("glob");
 const files = glob.sync('./src/web/views/**/*.entry.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {join} = require("path");
+const HtmlAfterWebpackPlugin = require('./config/HtmlAfterWebpackPlugin');
 
 const _entry = {};
 const _plugin = [];
@@ -17,6 +18,7 @@ for (let item of files) {
     _plugin.push(new HtmlWebpackPlugin({  // Also generate a test.html
       filename: `../views/${dist}/pages/${template}.html`, //输出路径
       template: `src/web/views/${dist}/pages/${template}.html`, //入口路径
+      chunks: [entryKey],
       inject: false 
     }))
   }
@@ -29,8 +31,9 @@ const webpackConfig = {
     filename: "script/[name].bundule.js"
   },
   plugins: [
-    ..._plugin
+    ..._plugin,
+    new HtmlAfterWebpackPlugin()
   ]
 }
 
-module.exports = merge(webpackConfig,_mergeConfig) 
+module.exports = merge(webpackConfig,_mergeConfig);
