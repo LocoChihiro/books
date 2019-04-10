@@ -16,7 +16,7 @@ module.exports = {
       },
     ],{
       copyUnmodified: true,
-      ignore: ["*.js","*.css"]
+      ignore: ["*.js","*.css",".DS_Store"]
     }),
   ],
 };

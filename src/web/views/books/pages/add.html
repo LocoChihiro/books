@@ -4,6 +4,10 @@
 
 {% block head %}
 {% endblock %}
+{% block navigation %}
+    {% include "components:navigation/navigation.html" %} 
+    <!-- 引入components里的模板 -->
+{% endblock %}
 
 {% block content %}
     {% include "components:add/add.html" %} 

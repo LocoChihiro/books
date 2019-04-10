@@ -1,4 +1,4 @@
-{% extends 'pages:common/layout.html' %}
+{% extends '../../common/layout.html' %}
 
 {% block title %}🍎books{% endblock %}
 
@@ -6,15 +6,15 @@
 {% parent %}
 {% endblock %}
 {% block navigation %}
-    {% include "components:navigation/navigation.html" %} 
+    {% include "../../../components/navigation/navigation.html" %} 
     <!-- 引入components里的模板 -->
 {% endblock %}
 
 {% block content %}
-    {% include "components:list/list.html" %} 
+    {% include "../../../components/list/list.html" %} 
     <!-- 引入components里的模板 -->
 {% endblock %}
 
 {% block script %}
-<!-- injectjs -->
+<script src="/script/books-list.bundule.js"></script>
 {% endblock %}

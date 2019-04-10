@@ -7,6 +7,7 @@ const files = glob.sync('./src/web/views/**/*.entry.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {join} = require("path");
 const HtmlAfterWebpackPlugin = require('./config/HtmlAfterWebpackPlugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const _entry = {};
 const _plugin = [];
@@ -30,9 +31,25 @@ const webpackConfig = {
     publicPath: '/',
     filename: "script/[name].bundule.js"
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [{
+          loader: MiniCssExtractPlugin.loader,
+        }, 'css-loader'],
+      },
+    ],
+  },
   plugins: [
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: "style/[name].css",
+      chunkFilename: "style/[id].css"
+    }),
     ..._plugin,
-    new HtmlAfterWebpackPlugin()
+    new HtmlAfterWebpackPlugin(),
   ]
 }
 
