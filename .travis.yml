@@ -1,0 +1,10 @@
+#通过http://lint.travis-ci.org/校验完整性
+language: node_js
+node_js:
+- 7.7.1
+#after_script:
+#构建完毕⾃自动将代码分发到远程主机
+#- scp -o StrictHostKeyChecking=no app.js root@www.个⼈人主机.com:/home/www/yidengtest
+#before_install:
+#此句句去掉即可 travis encrypt-file⾃自动⽣生成
+#- openssl aes-256-cbc -K $encrypted_204d80cb93e1_key -iv $encrypted_204d80cb93e1_iv
