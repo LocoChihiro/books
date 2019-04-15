@@ -15,9 +15,16 @@ class IndexController {
       const index = new Index(); // console.log(index,123);
 
       const result = await index.getData();
-      ctx.body = await ctx.render("books/pages/list", {
+      const html = await ctx.render("books/pages/list", {
         data: result.data
       }); //吐出模板内容
+
+      if (ctx.request.header['x-pjax']) {
+        const $ = cheerio.load('html');
+        ctx.body = $('#hooks-data').html();
+      } else {
+        ctx.body = html;
+      }
     };
   }
 
