@@ -23,11 +23,13 @@ const add = {
           <label for="price">Password</label>
           <input type="text" class="form-control" id="price" placeholder="请输入单价">
         </div>
-        <button type="submit" id="btn-sub" class="btn btn-default">提交</button>
+        <button type="button" id="btn-sub" class="btn btn-default">提交</button>
       </form>`
       }
-      "click:event"(e){
+      "click::event"(e){
+        console.log(e);
         if (e.target.id == 'btn-sub') {
+          console.log(this);
           alert(1);
         }
       }

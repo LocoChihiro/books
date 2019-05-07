@@ -22,8 +22,6 @@ app.context.render = co.wrap(render({
     writeBody: false
 }));
 
-
-
 log4js.configure({
     appenders: {
         cheese: {

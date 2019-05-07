@@ -288,3 +288,374 @@
     at getParents (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:480:14)
     at exports.Swig.precompile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:527:19)
     at exports.Swig.compile (/home/hansai/Desktop/books/node_modules/swig-templates/lib/swig.js:651:16)
+[2019-05-06T17:25:31.109] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:25:35.247] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:27:31.057] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:27:31.599] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:27:31.771] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:27:31.932] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:27:32.071] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:34:51.038] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-06T17:34:52.094] [ERROR] cheese - { code: 1,
+  data: [],
+  message:
+   { FetchError: request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80
+       at ClientRequest.<anonymous> (/home/hansai/Desktop/books/node_modules/node-fetch/lib/index.js:1444:11)
+       at ClientRequest.emit (events.js:197:13)
+       at Socket.socketErrorListener (_http_client.js:397:9)
+       at Socket.emit (events.js:197:13)
+       at emitErrorNT (internal/streams/destroy.js:82:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+       at processTicksAndRejections (internal/process/next_tick.js:76:17)
+     message:
+      'request to http://localhost/basic/web/index.php?r=books/index failed, reason: connect ECONNREFUSED 127.0.0.1:80',
+     type: 'system',
+     errno: 'ECONNREFUSED',
+     code: 'ECONNREFUSED' } }
+[2019-05-07T10:25:11.323] [ERROR] cheese - ReferenceError: cheerio is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:23:19
+[2019-05-07T11:20:20.091] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:20:20.220] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:21:20.874] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:23:20.610] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:24:09.199] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:26:43.567] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T11:27:18.030] [ERROR] cheese - TypeError: Cannot read property 'x-pjax' of undefined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:25:25
+[2019-05-07T13:35:49.628] [ERROR] cheese - ReferenceError: _result is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:36:17
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:35:57.099] [ERROR] cheese - ReferenceError: _result is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:36:17
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:48:35.405] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:48:44.028] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:49:10.127] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:51:22.489] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:51:27.194] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T13:53:47.963] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:09:11.333] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:13:49.981] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:38:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:16:19.840] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:38:9
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:22:09.625] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:17
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:23:09.896] [ERROR] cheese - ReferenceError: $ is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:37:17
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:33:09.138] [ERROR] cheese - ReferenceError: result is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:36:15
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:33:09.186] [ERROR] cheese - ReferenceError: result is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:36:15
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:186:18)
+    at Router._lookup (/home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:198:12)
+    at /home/hansai/Desktop/books/node_modules/koa-simple-router/index.js:138:21
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:15:13)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at app.use (/home/hansai/Desktop/books/dist/middlewares/errorHandler.js:7:15)
+    at dispatch (/home/hansai/Desktop/books/node_modules/koa-compose/index.js:42:32)
+    at parseBody.then.body (/home/hansai/Desktop/books/node_modules/koa-bodyparser/index.js:74:14)
+[2019-05-07T14:37:41.230] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:45:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:44:26
+[2019-05-07T14:37:59.995] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:45:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:44:26
+[2019-05-07T14:39:42.788] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:46:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:44:26
+[2019-05-07T14:39:50.200] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:46:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:44:26
+[2019-05-07T14:41:27.529] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:46:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:44:26
+[2019-05-07T14:44:06.398] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:42:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:40:26
+[2019-05-07T14:55:27.670] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:41:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:40:27
+[2019-05-07T14:56:33.992] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:41:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:40:27
+[2019-05-07T14:59:13.653] [ERROR] cheese - TypeError: Assignment to constant variable.
+    at Node.<anonymous> (/home/hansai/Desktop/books/dist/controllers/IndexController.js:41:19)
+    at initialize.exports.each (/home/hansai/Desktop/books/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:40:27
+[2019-05-07T15:08:31.243] [ERROR] cheese - ReferenceError: _resutl is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:51:21
+[2019-05-07T15:15:23.972] [ERROR] cheese - ReferenceError: _resutl is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:51:21
+[2019-05-07T15:16:58.474] [ERROR] cheese - ReferenceError: _resutl is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:51:21
+[2019-05-07T15:18:09.679] [ERROR] cheese - ReferenceError: _resutl is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:51:21
+[2019-05-07T15:19:13.889] [ERROR] cheese - ReferenceError: _resutl is not defined
+    at /home/hansai/Desktop/books/dist/controllers/IndexController.js:51:21

@@ -6,21 +6,22 @@ const {
   URLSearchParams
 } = require('url');
 
+const cheerio = require('cheerio');
+
 class IndexController {
   constructor() {}
 
   actionIndex() {
     //首页控制器
     return async (ctx, root) => {
-      const index = new Index(); // console.log(index,123);
-
+      const index = new Index();
       const result = await index.getData();
       const html = await ctx.render("books/pages/list", {
         data: result.data
       }); //吐出模板内容
 
       if (ctx.request.header['x-pjax']) {
-        const $ = cheerio.load('html');
+        const $ = cheerio.load(html);
         ctx.body = $('#hooks-data').html();
       } else {
         ctx.body = html;
@@ -31,7 +32,27 @@ class IndexController {
   actionAdd() {
     //add路由控制器
     return async (ctx, root) => {
-      ctx.body = await ctx.render("books/pages/add"); //吐出模板内容
+      const html = await ctx.render("books/pages/add");
+      console.log(html);
+      const $ = cheerio.load(html);
+      let _result = '';
+
+      if (ctx.request.header['x-pjax']) {
+        $('.pjaxcontent').each(function () {
+          _result += $(this).html();
+        });
+        $('.layload-js').each(function () {
+          // console.log($(this).attr('src'));
+          _result += `<script src="${$(this).attr('src')}"></script>`;
+        });
+        $('.layload-css').each(function () {
+          _result += `<link rel="stylesheet" href="${$(this).attr('href')}">`;
+        });
+        console.log(_result);
+        ctx.body = _result;
+      } else {
+        ctx.body = html;
+      }
     };
   }
 

@@ -1,7 +1,7 @@
 class TestController {
     constructor() {}
     actionIndex() {
-        return async(ctx, root)=> {
+        return async (ctx, root) => {
         }
     }
 }

@@ -8,12 +8,19 @@
 </head>
 <body>
         {% block navigation %}{% endblock %}
-    <div class="container">
+    <div class="container" id="app">
         {% block content %}{% endblock %}
     </div>
     <script src="https://cdn.staticfile.org/x-tag/2.0.9-alpha/x-tag-raw.min.js"></script>
-    <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdn.staticfile.org/jquery.pjax/2.0.1/jquery.pjax.js"></script>
+    <script src="https://cdn.staticfile.org/quicklink/1.0.0/quicklink.umd.js"></script>
+    <script>
+        quicklink({
+            urls: ['/script/books-add.bundule.js']
+        });
+        $(document).pjax('a','#app')
+    </script>
     {% block script %}{% endblock %}
 </body>
 </html>
